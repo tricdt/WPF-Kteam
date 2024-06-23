@@ -19,6 +19,24 @@ namespace WPF_Kteam
         public MainWindow()
         {
             InitializeComponent();
+            Button btn = new Button();
+            btn.Click += btn_Click;
+            //btn.Content = "Free Education";
+            grdButton.Children.Add(btn);
+
+            //TextBlock txbl = new TextBlock();
+            //txbl.Text = "Share to be better";
+            //btn.Content = txbl;
+
+            //TextBox txb = new TextBox();
+            //txb.Width = 100;
+            //txb.Height = 50;
+            //btn.Content = txb
+        }
+        void btn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("CLick rồi nè!");
         }
     }
+
 }

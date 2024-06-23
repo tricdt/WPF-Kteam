@@ -6,7 +6,16 @@
         xmlns:local="clr-namespace:WPF_Kteam"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid x:Name="grdButton">
+        <!--<Button Content="www.HowKteam.com">
+            <Button.Background>
+                <ImageBrush ImageSource="D:\Project\Web\Recuirement Web HowKTeam\Git\How\Logo\Kteam-vector copy 2.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>-->
+        <Button>
+            <Button.Content>
+                <TextBlock Text="www.HowKteam.com"></TextBlock>
+            </Button.Content>
+        </Button>
     </Grid>
 </Window>
