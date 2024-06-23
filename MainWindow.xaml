@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Button Content="HowKteam.com" FontFamily="Arial" FontSize="20"></Button>
+        <TextBlock Text="Free Education"></TextBlock>
     </Grid>
 </Window>
