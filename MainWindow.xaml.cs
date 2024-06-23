@@ -20,5 +20,11 @@ namespace WPF_Kteam
         {
             InitializeComponent();
         }
+
+        private void TextBlock_MouseEnter(object sender, MouseEventArgs e)
+        {
+            TextBlock txbl = sender as TextBlock;
+            txbl.Text = "Free Education";
+        }
     }
 }

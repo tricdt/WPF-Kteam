@@ -7,6 +7,36 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <TextBlock Foreground="#FFFB1429" 
+                   MouseEnter="TextBlock_MouseEnter"
+                   Background="Aqua"
+                   Height="50"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center" 
+                   TextWrapping="WrapWithOverflow" RenderTransformOrigin="0.5,0.5"                   
+                   >
+            <TextBlock.Text>
+                hk
+            </TextBlock.Text>
+            <TextBlock.FontSize>
+                50
+            </TextBlock.FontSize>
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="50"/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.LayoutTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
     </Grid>
 </Window>
